@@ -1,4 +1,6 @@
 import Navbar from "../Navbar/Navbar";
+import Cards from "../Cards/Cards";
+
 import "./homepage.css";
 import headerImg from "../../images/img1.png";
 
@@ -23,6 +25,8 @@ const HomePage = () => {
           <img src={headerImg} alt="" />
         </div>
       </div>
+
+      <Cards />
 
       <div className="box"></div>
     </>

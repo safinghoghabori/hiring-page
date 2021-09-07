@@ -1,0 +1,28 @@
+.card-area {
+  width: 70%;
+  margin: auto;
+}
+
+.card-main {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 200;
+}
+
+.heading h1 {
+  text-align: center;
+}
+
+h1,
+h2 {
+  font-weight: 400;
+}
+.card {
+  border: 2px solid rgba(0, 0, 0, 0.288);
+  border-radius: 5px;
+  text-align: center;
+  height: 225px;
+  width: 197px;
+  padding: 10px;
+  margin-top: 56px;
+}
