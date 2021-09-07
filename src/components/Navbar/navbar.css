@@ -1,0 +1,36 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-basis: 30%;
+  align-items: center;
+  width: 80%;
+  margin: auto;
+  margin-top: 30px;
+}
+
+.logo {
+  flex-basis: 10%;
+}
+
+.menu {
+  flex-basis: 50%;
+}
+
+.menu ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+ul li {
+  list-style-type: none;
+  font-weight: 500;
+}
+
+ul li:hover {
+  cursor: pointer;
+  color: #0d7ec2;
+}
+
+ul li:first-child {
+  color: #0d7ec2;
+}
