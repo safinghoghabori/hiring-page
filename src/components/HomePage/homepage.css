@@ -5,4 +5,27 @@
   width: 125px;
   top: 0;
   left: 91.5%;
+  z-index: -10;
+}
+
+.main {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-content {
+  flex-basis: 30%;
+  margin-top: 80px;
+  margin: auto;
+}
+
+.main-img {
+}
+
+.main-img img {
+  flex-basis: 70%;
+  height: 80%;
+  border-radius: 20px 20px 20px 0;
+  position: relative;
+  right: -12%;
 }
