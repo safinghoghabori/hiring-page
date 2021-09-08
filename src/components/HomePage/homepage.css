@@ -1,10 +1,10 @@
 .box {
-  background-color: #51a5da;
+  background-color: #2db9a6;
   position: absolute;
   height: 400px;
-  width: 125px;
+  width: 144px;
   top: 0;
-  left: 91.5%;
+  left: 90.5%;
   z-index: -10;
 }
 

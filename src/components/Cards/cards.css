@@ -9,7 +9,7 @@
   font-weight: 200;
 }
 
-.heading h1 {
+.heading {
   text-align: center;
 }
 
@@ -25,4 +25,5 @@ h2 {
   width: 197px;
   padding: 10px;
   margin-top: 56px;
+  align-items: center;
 }

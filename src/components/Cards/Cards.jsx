@@ -10,9 +10,9 @@ const Card = () => {
     <>
       <div className="card-area">
         <div className="heading">
-          <h1>
+          <h2>
             We are always on the lookout for talented folk to join our team
-          </h1>
+          </h2>
         </div>
         <div className="card-main">
           <div className="card">

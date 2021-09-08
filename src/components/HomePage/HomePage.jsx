@@ -3,6 +3,7 @@ import Cards from "../Cards/Cards";
 
 import "./homepage.css";
 import headerImg from "../../images/img1.png";
+import Openings from "../Openings/Openings";
 
 const HomePage = () => {
   return (
@@ -27,6 +28,8 @@ const HomePage = () => {
       </div>
 
       <Cards />
+
+      <Openings />
 
       <div className="box"></div>
     </>
