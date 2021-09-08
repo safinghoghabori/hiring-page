@@ -1,13 +1,17 @@
-.table {
-  /* width: 80%; */
-}
 .action-btn {
   cursor: pointer;
 }
 
 #table-row td {
   padding: 15px;
-  color: rgba(0, 0, 0, 0.3);
+  color: rgba(0, 0, 0, 0.4);
   font-weight: 600;
   font-size: 20px;
+}
+
+/* Media Queries */
+@media screen and (max-width: 350px) {
+  #table-row td {
+    font-size: 15px;
+  }
 }

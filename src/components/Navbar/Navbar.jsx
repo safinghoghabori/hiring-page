@@ -1,14 +1,30 @@
-import logo from "../../images/logo.png";
+import { useState } from "react";
+import Menu from "../Menu/Menu";
 
-//css
+import logo from "../../images/logo.png";
+import hamburgerIco from "../../images/hamburger.png";
+
 import "./navbar.css";
 
 const Navbar = () => {
+  const [open, setOpen] = useState(false);
+
   return (
     <div className="container">
       <div className="logo">
         <img src={logo} />
       </div>
+      <div className="menu-icon">
+        <img
+          src={hamburgerIco}
+          alt="hamburger menu"
+          height="30"
+          width="30"
+          className="hamburger-menu"
+          onClick={() => setOpen(!open)}
+        />
+      </div>
+      <Menu open={open} />
       <div className="menu">
         <ul>
           <li className="menuItems">Home</li>

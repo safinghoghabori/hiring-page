@@ -31,7 +31,7 @@
   color: #fff;
 }
 .col_3 {
-  flex-basis: 25%;
+  flex-basis: 40%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -39,6 +39,12 @@
 
 .col_3 > * {
   margin-bottom: 15px;
+}
+
+.col_1,
+.col_2,
+.col_3 {
+  padding: 10px;
 }
 
 .social-icons {
@@ -71,4 +77,39 @@
   border: 0;
   color: white;
   background-color: #2db9a6;
+}
+
+/* Media Queries */
+@media screen and (max-width: 630px) {
+  .div-top {
+    justify-content: space-between;
+  }
+  .col_1,
+  .col_2 {
+    flex-basis: 50%;
+  }
+  .col_3 {
+    flex-basis: 100%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .col_1,
+  .col_2,
+  .col_3 {
+    flex-basis: 100%;
+    margin-top: 30px;
+  }
+
+  .input-box {
+    padding: 5px;
+  }
+
+  .div-subscribe button {
+    padding: 5px;
+  }
+
+  .sub-heading {
+    align-self: flex-start;
+  }
 }

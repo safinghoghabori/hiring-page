@@ -4,7 +4,7 @@ import { Table } from "reactstrap";
 
 const TableGrid = ({ rows, columns }) => {
   return (
-    <Table hover className="table">
+    <Table hover responsive className="table">
       <thead>
         <tr>
           {columns.map((col) => (

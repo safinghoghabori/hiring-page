@@ -29,3 +29,15 @@
   width: 90%;
   margin-top: 30px;
 }
+
+/* Media Queries */
+@media screen and (max-width: 500px) {
+  .titles {
+    flex-wrap: wrap;
+    text-align: center;
+  }
+  .title {
+    padding-top: 10px;
+    flex-basis: 50%;
+  }
+}

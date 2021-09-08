@@ -29,9 +29,9 @@ const Footer = () => {
           <a href="#">GDPR</a>
         </div>
         <div className="col_3">
-          <span>
+          <div className="sub-heading">
             <b>SUBSCRIBE</b>
-          </span>
+          </div>
           <span>SIGN-UP FOR NEWS UPDATES AND ALERTS</span>
           <div className="div-subscribe">
             <input

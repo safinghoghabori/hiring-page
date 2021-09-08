@@ -2,6 +2,7 @@
   display: flex;
   flex-direction: row;
   flex-basis: 30%;
+  flex-wrap: wrap;
   align-items: center;
   width: 80%;
   margin: auto;
@@ -14,6 +15,23 @@
 
 .menu {
   flex-basis: 50%;
+}
+
+.menu-icon {
+  position: absolute;
+  top: 5%;
+  right: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 2rem;
+  height: 2rem;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  z-index: 1000;
+  display: none;
 }
 
 .menu ul {
@@ -33,4 +51,20 @@ ul li:hover {
 
 ul li:first-child {
   color: #0d7ec2;
+}
+
+/* Media Queries */
+@media screen and (max-width: 980px) {
+  .menu {
+    flex-basis: 86%;
+  }
+}
+
+@media screen and (max-width: 755px) {
+  .menu {
+    display: none;
+  }
+  .menu-icon {
+    display: block;
+  }
 }
