@@ -15,7 +15,7 @@ const Card = () => {
           </h2>
         </div>
         <div className="card-main">
-          <div className="card">
+          <div className="card-child">
             <img src={cardIcon1} alt="" />
             <h2>Flexibility</h2>
             <p>
@@ -23,7 +23,7 @@ const Card = () => {
               eiusmod tempor
             </p>
           </div>
-          <div className="card">
+          <div className="card-child">
             <img src={cardIcon2} alt="" />
             <h2>Lifestyle</h2>
             <p>
@@ -31,7 +31,7 @@ const Card = () => {
               eiusmod tempor
             </p>
           </div>
-          <div className="card">
+          <div className="card-child">
             <img src={cardIcon3} alt="" />
             <h2>Fun</h2>
             <p>
@@ -39,7 +39,7 @@ const Card = () => {
               eiusmod tempor
             </p>
           </div>
-          <div className="card">
+          <div className="card-child">
             <img src={cardIcon4} alt="" />
             <h2>Learning</h2>
             <p>

@@ -17,13 +17,17 @@ h1,
 h2 {
   font-weight: 400;
 }
-.card {
-  border: 2px solid rgba(0, 0, 0, 0.288);
+.card-child {
+  border: 1px solid rgba(0, 0, 0, 1);
   border-radius: 5px;
   text-align: center;
-  height: 225px;
   width: 197px;
   padding: 10px;
   margin-top: 56px;
   align-items: center;
+}
+
+.card-child h2 {
+  font-size: 1.3rem;
+  font-weight: 500;
 }

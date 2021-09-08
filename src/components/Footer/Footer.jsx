@@ -21,16 +21,26 @@ const Footer = () => {
           </p>
         </div>
         <div className="col_2">
-          <span>QUICK LINKS</span>
+          <span>
+            <b>QUICK LINKS</b>
+          </span>
           <a href="#">Terms and Conditions</a>
           <a href="#">Privacy and cookies policy</a>
           <a href="#">GDPR</a>
         </div>
         <div className="col_3">
-          <span>SUBSCRIBE</span>
+          <span>
+            <b>SUBSCRIBE</b>
+          </span>
           <span>SIGN-UP FOR NEWS UPDATES AND ALERTS</span>
           <div className="div-subscribe">
-            <input type="email" name="email" required />
+            <input
+              type="email"
+              name="email"
+              className="input-box"
+              placeholder="Email Address"
+              required
+            />
             <button>SUBSCRIBE</button>
           </div>
           <div className="social-icons">

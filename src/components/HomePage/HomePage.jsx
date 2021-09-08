@@ -1,5 +1,6 @@
 import Navbar from "../Navbar/Navbar";
 import Cards from "../Cards/Cards";
+import Footer from "../Footer/Footer";
 
 import "./homepage.css";
 import headerImg from "../../images/img1.png";
@@ -9,6 +10,8 @@ const HomePage = () => {
   return (
     <>
       <Navbar />
+
+      <div className="box"></div>
 
       <div className="main">
         <div className="main-content">
@@ -31,7 +34,7 @@ const HomePage = () => {
 
       <Openings />
 
-      <div className="box"></div>
+      <Footer />
     </>
   );
 };
