@@ -3,11 +3,13 @@ import Menu from "../Menu/Menu";
 
 import logo from "../../images/logo.png";
 import hamburgerIco from "../../images/hamburger.png";
+import hamburgerClose from "../../images/hamburger-close.png";
 
 import "./navbar.css";
 
 const Navbar = () => {
   const [open, setOpen] = useState(false);
+  const [close, setClose] = useState(false);
 
   return (
     <div className="container">
@@ -15,14 +17,32 @@ const Navbar = () => {
         <img src={logo} />
       </div>
       <div className="menu-icon">
-        <img
-          src={hamburgerIco}
-          alt="hamburger menu"
-          height="30"
-          width="30"
-          className="hamburger-menu"
-          onClick={() => setOpen(!open)}
-        />
+        {!close && (
+          <img
+            src={hamburgerIco}
+            alt="hamburger menu"
+            height="30"
+            width="30"
+            className="hamburger-menu"
+            onClick={() => {
+              setOpen(!open);
+              setClose(true);
+            }}
+          />
+        )}
+        {close && (
+          <img
+            src={hamburgerClose}
+            alt="hamburger menu"
+            height="30"
+            width="30"
+            className="hamburger-menu"
+            onClick={() => {
+              setClose(!close);
+              setOpen(false);
+            }}
+          />
+        )}
       </div>
       <Menu open={open} />
       <div className="menu">

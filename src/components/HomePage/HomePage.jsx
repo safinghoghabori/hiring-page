@@ -17,7 +17,7 @@ const HomePage = () => {
         <div className="main-content">
           <h1>WE ARE HIRING</h1>
           <br />
-          <p style={{ fontSize: 20 }}>
+          <p>
             By adding an extended arm to your sales and marketing teams we would
             love to strengthen your B2B marketing and sales approach. Our team
             will help you reach larger audience of potential leads to keep you
