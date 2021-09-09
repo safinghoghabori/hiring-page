@@ -24,9 +24,9 @@ const Footer = () => {
           <span>
             <b>QUICK LINKS</b>
           </span>
-          <a href="#">Terms and Conditions</a>
-          <a href="#">Privacy and cookies policy</a>
-          <a href="#">GDPR</a>
+          <a href="javascript:void(0);">Terms and Conditions</a>
+          <a href="javascript:void(0);">Privacy and cookies policy</a>
+          <a href="javascript:void(0);">GDPR</a>
         </div>
         <div className="col_3">
           <div className="sub-heading">

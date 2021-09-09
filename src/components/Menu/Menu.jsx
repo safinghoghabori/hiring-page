@@ -10,25 +10,25 @@ const Menu = (props) => {
     <nav className={drawerClasses.join(" ")}>
       <ul>
         <li className="menuItems">
-          <a href="#">Home</a>
+          <a href="javascript:void(0);">Home</a>
         </li>
         <li className="menuItems">
-          <a href="#">Services</a>
+          <a href="javascript:void(0);">Services</a>
         </li>
         <li className="menuItems">
-          <a href="#">About Us</a>
+          <a href="javascript:void(0);">About Us</a>
         </li>
         <li className="menuItems">
-          <a href="#">News</a>
+          <a href="javascript:void(0);">News</a>
         </li>
         <li className="menuItems">
-          <a href="#">Blogs</a>
+          <a href="javascript:void(0);">Blogs</a>
         </li>
         <li className="menuItems">
-          <a href="#">Careers</a>
+          <a href="javascript:void(0);">Careers</a>
         </li>
         <li className="menuItems">
-          <a href="#">Contact Us</a>
+          <a href="javascript:void(0);">Contact Us</a>
         </li>
       </ul>
     </nav>
